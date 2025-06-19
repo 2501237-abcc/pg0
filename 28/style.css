@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    background-color: lightgrey;
+}
+
+
+
+nav ul{
+    position: fixed;
+    top: 0;
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: 0;
+}
+
+
+nav li{
+    padding: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav li:hover{
+    background-color: gray;
+}
+
+
+.home{
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+
+.subtitle{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.subtitle img{
+    width: 30%;
+}
+
+.name{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 游明朝, serif;
+}
+
+.animetitle{
+    background-color: white;
+}
+
+.anime{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+.animename{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.animename img{
+    width: 40%;
+}
+
+
+.text{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 游明朝, serif;
+}
+ 
+.hoddy{
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: start;
+}
+
+.hoddy img{
+    width: 20%;
+    height: 20%;
+}
+
+.artist{
+    background-color: white;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.artist img{
+    width: 40%;
+    height: 40%;
+}
+
